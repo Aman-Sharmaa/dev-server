@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=public_html/dev.skoool.co
+    - /bin/cp -R images $DEPLOYPATH
